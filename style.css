@@ -1,0 +1,156 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    height: 100vh;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    
+}
+
+.overlay{
+    height: 100vh;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(34, 198, 248, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(2px);
+}
+
+.main{
+    width: 500px;
+    height: 200px;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.pfp{
+    width: 70px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.name{
+    transform: rotate(-6deg);
+    color: #ffffff;
+}
+
+.label{
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.hw{
+    color:#888;
+}
+
+.hw:hover{
+    color:rgb(19, 137, 173);
+}
+
+.section-1{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.sec-con-1{
+    height: 80vh;
+    
+}
+
+.center_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    float: left;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 8px;
+}
+
+.info li {
+    width: 100%;
+    float: left;
+    list-style: none;
+    padding: 5px 0;
+}
+
+.gray{
+    color: #888;
+}
+
+.font a{
+    font-size: large;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.font a:hover{
+    color: rgb(19, 137, 173);
+}
+
+
+::-webkit-scrollbar {
+    width: 1px;
+
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #888; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(34, 198, 248, 0.6); 
+    border-radius: 5px;
+  }
+
+  
+
+  @media (min-width: 700px){    }
+  
+  .right{
+      float: right;
+  }
+  
+   
+
+@media (max-width: 400px ){
+
+    .name{
+        font-size: 25px;
+    }
+    
+
+    .label{
+        font-size: 8px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+}
